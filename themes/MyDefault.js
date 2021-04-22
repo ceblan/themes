@@ -1,4 +1,4 @@
 t.prefs_.set('foreground-color', "#ffffff");
 t.prefs_.set('background-color', "#000000");
-term_set('cursor-color', 'rgba(0, 255, 0, 1)');
-term_set('cursor-blink', true);
+t.prefs_.set('cursor-color', 'rgba(0, 255, 0, 0.5)');
+t.prefs_._set('cursor-blink', true);
